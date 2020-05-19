@@ -11,7 +11,7 @@ class MyDataFilter:
     def __init__(sefl):
         self.filterd_data = list()
     
-    def filter(data_set : list, **filter_params : str):
+    def filter(self, data_set : list, **filter_params : str):
         """Filter a list by conditions. The conditions can be none,
         oddd or even. return the filtered the results by the
         condition
